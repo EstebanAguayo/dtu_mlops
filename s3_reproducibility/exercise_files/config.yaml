@@ -1,0 +1,17 @@
+#Hyperparameters found for the variable autoencoder
+#input_size =
+#number_hidden = 
+#learing_rate =
+#number_of_hidden_states_encoder = # Encoder hidden layer activation outputs
+#latent_space_dim =                # Dimensionality of the feature space between encoder and decoder
+#number_of_hidden_states_decoder = # Decoder hidden layer activation outputs
+hyperparameters:
+  dataset_path : '~/datasets'
+  cuda : False
+  #DEVICE : torch.device("cuda" if cfg.hyperparameters.cuda else "cpu")
+  batch_size : 100
+  x_dim  : 784
+  hidden_dim : 400
+  latent_dim : 20
+  lr : 1e-3
+  epochs : 20
